@@ -1,0 +1,34 @@
+.column
+{
+	display: table-cell;
+	padding: 10px;
+	width: 100px;
+}
+
+.hotspot
+{
+	border: solid thin #000000;
+	background: #999999;
+	
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	vertical-align: center;
+	position: relative;
+}
+
+.hotspot p
+{
+	font-weight: bold;
+}
+
+#output-box
+{
+	border: dashed thin #000000;
+	height: 100px;
+	width: 700px;
+	text-align: center;
+	background: #ccccee;
+	
+	display: none;
+}

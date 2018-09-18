@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Page title goes here</title>
+		<link href="styles/drag-and-drop.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/ist5313fpt.css" rel="stylesheet" type="text/css"/>
+		
+		<!--- link your other script files here that are specific to this HTML page here --->
+	</head>	
+	<body>
+		<div id="main-layout">
+			<div id="toc">
+				<nav>
+					<h3>Module 0</h3>
+					<ul>
+						<li><a href="topic-1.html">Topic 1</a></li>
+						<li><a href="topic-2.html">Topic 2</a></li>
+						<li><a href="topic-3.html">Topic 3</a></li>
+						<li><a href="topic-4.html">Topic 4</a></li>
+						<li><a href="drag-and-drop.html">Drag and drop activity</a></li>
+						<li><a href="hotspots.html">Hotspots activity</a></li>
+						<li><a href="quiz.html">Quiz</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="content">
+            	<h1>Drag and Drop Activity</h1>
+            
+         		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
+				<p>Match each English word with its French equivalent.</p>
+				
+				<div class="column">
+						<h3>Draggers</h3>
+					 	<div id="d1" value="3" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>cat</p></div><br/>  
+				     	<div id="d2" value="2" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>horse</p></div><br/>                        
+				 		<div id="d3" value="0" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>dog</p></div><br/>  
+					 	<div id="d4" value="1" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>bird</p></div><br/>  
+				</div>
+				
+				    
+				<div class="column">
+						<h3>Dragger Bays</h3>
+				     	<div id="db1" value="0" class="draggerbay" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>le chien</p></div><br/>                        
+				 		<div id="db2" value="1" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>l'oiseau</p></div><br/>  
+					 	<div id="db3" value="2" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>le cheval </p></div><br/> 
+					 	<div id="db4" value="3" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>le chat</p></div><br/>  
+				</div>
+				<p id="response">&nbsp;</p>
+				<input type="submit" name="button" value="Submit Your Answer"/><br/>
+				</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
