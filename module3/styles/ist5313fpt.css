@@ -1,0 +1,57 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+#toc
+{
+	margin: 0px;
+	padding: 5px;
+	background: #888888;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    overflow-x: hidden;
+}
+
+#toc ul li
+{
+	margin-left: -20px;
+}
+
+#toc ul li a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#content
+{
+	padding: 5px;
+	margin-left: 160px;
+}
+
+#main-layout
+{
+	display: table;
+}
+
+#main
+{
+	padding: 10px;
+}
+
+#content-tools
+{
+	text-align: right;
+	padding-right: 10px;
+}
+
+#content-tools > a
+{
+	text-decoration: none;
+	text-weight: bold;
+}

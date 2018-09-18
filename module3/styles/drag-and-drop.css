@@ -1,0 +1,47 @@
+.column
+{
+	display: table-cell;
+	padding: 10px;
+	margin: 0px;
+	width: 200px;
+}
+
+#instructions
+{
+	margin: 0px;
+}
+
+.dragger
+{
+	border: solid thin #000000;
+	background: #999999;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	vertical-align: center;
+	cursor: move;
+	position: relative;
+	ghosting: true;
+}
+
+.dragger p
+{
+	font-weight: bold;
+}
+
+.draggerbay
+{
+	border: dashed thin #000000;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	background: #ccccee;
+}
+
+[draggable=true] 
+{
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
