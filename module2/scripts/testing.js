@@ -10,10 +10,10 @@
     correctAnswer: 2
   }, {
     question: "Read this quotation from paragraph 4. 'I had never seen such stubbornness for so long in my daughter, even at her young age. I was shocked. These red American apples had such scary appeal to the young children.'What does this quotation reveal about the narrator’s conflict?",
-    choices: ["He is displeased with his daughter’s rebellious behavior", "He is stunned by how easily children are enticed by the appearance of the apples.", "He is uncertain about whether to buy his daughter what she wants.", "He is angry that the American apples are being marketed specifically to children."],
+    choices: ["He is displeased with his daughter's rebellious behavior", "He is stunned by how easily children are enticed by the appearance of the apples.", "He is uncertain about whether to buy his daughter what she wants.", "He is angry that the American apples are being marketed specifically to children."],
     correctAnswer: 1
   }, {
-    question: "What do the narrator’s actions in paragraph 5 reveal about his relationship with his daughter?",
+    question: "What do the narrator's actions in paragraph 5 reveal about his relationship with his daughter?",
     choices: ["He is proud of her determination.", "He is frustrated by her constant demands.", "He is supporting her open-mindedness about other cultures.", "He is perplexed by her regard for inanimate objects."],
     correctAnswer: 2
   }, {
@@ -21,8 +21,8 @@
     choices: ["provide an unexpected ending", "signify the point at which the narrator and his daughter understand their conflict", "reflect the narrator's past mistakes and lessons he has learned", "present the solution to the main problem"],
     correctAnswer: 0
   }, {
-    question: "Which sentence best explains the narrator’s reluctance to buy the American apples?",
-    choices: ["I had expected my daughter to jump for joy again, yet at the very first bite, she froze, a puzzled look in her vivid eyes.", "In this city of ours where people like to chase whatever is fashionable, many kinds of foreign apples flood in like mad, the most attention-catching of which are American apples.", "The red ones are so red, green ones so green, shiny, wax like, as if painted on", "It’s just that in my heart I didn’t want to waste my money on such hot foreign things."],
+    question: "Which sentence best explains the narrator's reluctance to buy the American apples?",
+    choices: ["I had expected my daughter to jump for joy again, yet at the very first bite, she froze, a puzzled look in her vivid eyes.", "In this city of ours where people like to chase whatever is fashionable, many kinds of foreign apples flood in like mad, the most attention-catching of which are American apples.", "The red ones are so red, green ones so green, shiny, wax like, as if painted on", "It's just that in my heart I didn't want to waste my money on such hot foreign things."],
     correctAnswer: 3
   }, {
     question: "What major theme is explored in the story?",
