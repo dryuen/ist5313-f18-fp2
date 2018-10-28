@@ -1,45 +1,49 @@
 // JavaScript Document
 (function() {
   var questions = [{
-    question: "The author uses a simile to describe the apples in paragraph 2 to convey  ",
-    choices: ["their mythic appeal", "the advertising techniques used in foreign magazines", "their universal symbolism", "the contrast between Chinese and foreign supermarkets"],
-    correctAnswer: 0
-  }, {
-    question: "Read these sentences from paragraph 4. 'She pouted unhappily the whole day and evening and didn't want to say one word to me. When she woke up the next morning, she still had not forgotten' . In these sentences, the author depicts the daughter as ",
-    choices: ["deceptive", "envious", "resentful", "reflective"],
+    question: "Read this sentence from Reading 1, paragraph 16. 'And she became an ambassador as much as coach, allowing television cameras into the locker room, willing to play almost any team on almost any court.' In this sentence, the author is trying to show that Summitt -",
+    choices: ["frequently sought out opportunities to appear on television", "was able to pick and choose which teams to play", "took on a role in women’s sports that went beyond coaching", "compromised her standards occasionally"],
     correctAnswer: 2
   }, {
-    question: "Read this quotation from paragraph 4. 'I had never seen such stubbornness for so long in my daughter, even at her young age. I was shocked. These red American apples had such scary appeal to the young children.'What does this quotation reveal about the narrator’s conflict?",
-    choices: ["He is displeased with his daughter's rebellious behavior", "He is stunned by how easily children are enticed by the appearance of the apples.", "He is uncertain about whether to buy his daughter what she wants.", "He is angry that the American apples are being marketed specifically to children."],
-    correctAnswer: 1
-  }, {
-    question: "What do the narrator's actions in paragraph 5 reveal about his relationship with his daughter?",
-    choices: ["He is proud of her determination.", "He is frustrated by her constant demands.", "He is supporting her open-mindedness about other cultures.", "He is perplexed by her regard for inanimate objects."],
-    correctAnswer: 2
-  }, {
-    question: "Paragraphs 7 and 8 are important to the development of the plot because they -",
-    choices: ["provide an unexpected ending", "signify the point at which the narrator and his daughter understand their conflict", "reflect the narrator's past mistakes and lessons he has learned", "present the solution to the main problem"],
+    question: "Why does the author end the article with a quotation?",
+    choices: ["To show how Pat Summitt will likely be remembered over time", "To suggest that Pat Summitt’s accomplishments may soon be eclipsed", "To imply that female coaches will never win as many games as male coaches", "To provide an opinion that differs from those expressed in the rest of the article"],
     correctAnswer: 0
   }, {
-    question: "Which sentence best explains the narrator's reluctance to buy the American apples?",
-    choices: ["I had expected my daughter to jump for joy again, yet at the very first bite, she froze, a puzzled look in her vivid eyes.", "In this city of ours where people like to chase whatever is fashionable, many kinds of foreign apples flood in like mad, the most attention-catching of which are American apples.", "The red ones are so red, green ones so green, shiny, wax like, as if painted on", "It's just that in my heart I didn't want to waste my money on such hot foreign things."],
+    question: "Which of these best summarizes the article?",
+    choices: ["Throughout her career, Pat Summitt has been an important figure in women’s sports. Although it was difficult for her to face the discrimination directed at female players and coaches, she managed to have successful seasons at the University of Tennessee", "The popularity of women’s sports today is largely the result of the enactment of Title IX in 1972. Before that, female athletes like Pat Summitt had little funding or support for their teams. Pat Summitt’s success is an example of how Title IX helped women athletes and coaches", "Although Pat Summitt had been a very successful basketball coach for many years, herprimary accomplishment came after she developed Alzheimer’s disease. By refusing to hide her diagnosis from the public and vowing to continue coaching, she set a powerful example for others.", "Through her determination to lead and succeed, Pat Summitt has become both a successful coach and an inspiration to female athletes. She applied the work ethic she learned as a child to her playing and coaching career, ultimately winning more games than any other college coach"],
     correctAnswer: 3
   }, {
-    question: "What major theme is explored in the story?",
-    choices: ["Responsibility is often difficult to accept.", "Appearances can be deceiving.", "Working hard is the best way to accomplish a goal.", "Family bonds are priceless."],
+    question: "According to the author, Pat Summitt learned important lessons about how to face difficult circumstances from her time spent - ",
+    choices: ["playing on the 1976 Olympic team", "dealing with her Alzheimer’s diagnosis", "working on her family’s farm", "losing games as a new coach"],
+    correctAnswer: 2
+  }, {
+    question: "Tara VanDerveer thinks Pat Summitt is equipped to handle her illness because of - ",
+    choices: ["the support from her team", "the availability of good medical care", "her physical conditioning", "her coaching experience"],
+    correctAnswer: 3
+  }, {
+    question: "What is the primary purpose of the photos of Pat Summitt?",
+    choices: ["To show how she became famous over time", "To portray both her successes and failures", "To represent different aspects of her career", "To highlight differences in her attitude over time"],
+    correctAnswer: 2
+  }, {
+    question: "Use “No Dream Is Impossible” to answer the following questions. The selection is mainly about - ",
+    choices: ["the importance of luck in finding success in Hollywood", "the need for adult guidance", "the limited career opportunities for women in Arkansas", "the importance of trusting oneself"],
+    correctAnswer: 3
+  }, {
+    question: "Read this sentence from paragraph 3. 'One honest glance told me that only by unglamorous hard work over quite a few years would this gangling, unsure Arkansas girl be transformed into my dream of a fine actress.'In this sentence, the author admits that - ",
+    choices: ["her quest would be more difficult than she had thought", "Hollywood directors didn’t think she had much talent", "it was time to start thinking about a different career", "acting was not as much fun as it had once seemed"],
+    correctAnswer: 0
+  },{
+    question: "Which line demonstrates the author’s realization that she may have overestimated her abilities?",
+    choices: ["But of course what really made me feel like catching the next bus for Arkansas was that in all the offices I managed to invade, not one casting man had looked at me with sudden interest and exclaimed, “That girl has something.”", "Since then I’ve found this inner voice always spoke the truth or made me try to find it for myself", "No one in my entire family had ever had artistic yearnings, so they looked upon my girlish dreams as a rather silly and impractical phase, which I would surely outgrow and then settle down in Arkansas like my more sensible cousins.", "It tells me no dream is impossible because faith in my inner self will guide me to its fulfillment."],
+    correctAnswer: 0
+  }, {
+    question: "In paragraph 2, the author suggests that - ",
+    choices: ["she knew she would become a successful actress as long as she worked hard", "failing would be acceptable as long as she had made the effort to succeed", "life in Hollywood was made more difficult by pressure from her family", "it would have been wise to have gotten a good job before pursuing her dream"],
     correctAnswer: 1
   }, {
-    question: "The author compares the pieces of her grandfather's collection to 'dear old friends' in paragraph 2 to suggest that the grandfather -",
-    choices: ["had acquired most of the collection as gifts", "was aware the collection might help him later in life", "feels a strong emotional bond to his collected objects", "fondly knew many of the original owners of the objects he collected"],
-    correctAnswer: 2
-  },{
-    question: "Paragraph 4 is significant because it highlights the - ",
-    choices: ["emotional impact of the grandfather having to sell his possessions", "grandfather's desire to pass along the story of his life to his granddaughter", "reasons why the grandfather was a collector of unusual trinkets", "value the grandfather placed upon the arts during his life"],
-    correctAnswer: 0
-  },{
-    question: "Read this quotation from paragraph 12. 'Buying this nugget was how I once helped a man save his children. Now, in selling it, I'll be saving my own children.' How is irony demonstrated in this quotation?",
-    choices: ["It shows that the grandfather's act of charity is helping him during his own time of need.", "It shows that each object in the grandfather's collection is worth more than he initially thought.", "It brings closure to the problem the grandfather faces as a result of political change in his country.", "It illuminates the reason the grandfather treasures something of little monetary value."],
-    correctAnswer: 0
+    question: "The title of the boxed information, “A Dream Realized,” best reflects the juxtaposition of which two concepts?",
+    choices: ["Irrationality and rationality", "Good and evil", "Ideal and actual", "Originality and banality"],
+    correctAnswer: 1
   }];
   
   var questionCounter = 0; //Tracks question number
