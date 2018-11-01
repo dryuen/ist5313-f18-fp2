@@ -176,7 +176,6 @@
     var result = numCorrect*100/questions.length;
 	result = Math.round(result);
 	score.append('You scored ' + result + ' % ');
-			  
-    return score;
+	return score;
   }
 })();
