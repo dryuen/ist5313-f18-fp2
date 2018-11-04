@@ -177,5 +177,7 @@
 	result = Math.round(result);
 	score.append('You scored ' + result + ' % ');
 	return score;
+	if (result > 0) {window.open ('page12.html','_self',false)};
+	sessionStorage.setItem( "somekey", result );
   }
 })();
