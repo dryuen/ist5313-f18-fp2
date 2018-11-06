@@ -2,7 +2,7 @@
 (function() {
   var questions = [{
     question: "The dialogue in paragraph 5 reveals -",
-    choices: ["Aunt Jessie's cruelty and the narrator’s hope for redemption", "Aunt Jessie's pragmatism and the narrator's need to gain approval", "Aunt Jessie's fatalism and the narrator's desire to console", "Aunt Jessie's sarcasm and the narrator's longing for acceptance"],
+    choices: ["Aunt Jessie's cruelty and the narrator's hope for redemption", "Aunt Jessie's pragmatism and the narrator's need to gain approval", "Aunt Jessie's fatalism and the narrator's desire to console", "Aunt Jessie's sarcasm and the narrator's longing for acceptance"],
     correctAnswer: 2
   },  
   {
