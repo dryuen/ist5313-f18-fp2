@@ -1,8 +1,8 @@
 // JavaScript Document
 (function() {
   var questions = [{
-    question: "The author uses a metaphor in this sentence to -",
-    choices: ["describe the welcoming architecture and practical layout of libraries", "highlight the way libraries continually update their collections", "emphasize the role libraries play in collecting and sharing information","show the way libraries encourage patrons to learn in different ways"],
+    question: "What is the primary purpose of the photos of Pat Summitt?",
+    choices: ["To show how she became famous over time ", "To portray both her successes and failures","To represent different aspects of her career","To highlight differences in her attitude over time"],
     correctAnswer: 2
   }];
   
