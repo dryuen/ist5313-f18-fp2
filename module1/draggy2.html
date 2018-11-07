@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Drag and Drop Quiz</title>
+  
+  
+  <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
+      <link rel="stylesheet" href="styles/dragstyle.css">
+
+  
+</head>
+
+<body>
+<p>AUDIO:  "This question can be answered without having to read the entire two stories. Read the question and use your dictionary for any words you do not understand. Drag each word to its meaning. When you have completed this task, press the submit button"</p>
+  
+<div class="quiz-wrapper">
+	<p class="question-description">Drag the appropriate code to each of the four paragraphs!</p>
+	<ul class="options">
+		<li class="title">Options</li>
+		<li class="option" data-target="heart"><mark>&#10084;</li>
+		<li class="option" data-target="message">#</li>
+		<li class="option" data-target="number">$</li>
+		<li class="option" data-target="question">?</li>
+		<li class="option" data-target="important">!</li>
+	
+	</ul>
+<div class="answers">
+	<ol>
+		<li><span class="target" data-accept="important">&nbsp;</span>  Every year when I was a child, a man brought a big, black, squeaking machine to school.
+ When he discovered I couldn’t hear all his peeps and squeaks, he would get very excited. The nurse would draw a chart with a deep canyon in it. Then I would listen to the squeaks two or three times, while the adults—who were all acting very, very nice—would watch me raise my hand. Sometimes I couldn’t tell whether I heard the squeaks or just imagined them, but I liked being the center of attention.
+</li><br>
+		<li><span class="target" data-accept="number">&nbsp;</span><span class="target" data-accept="important">&nbsp;</span><span class="target" data-accept="heart">&nbsp;</span>My parents said I lost my hearing to pneumonia as a baby, but I knew I hadn’t lost anything. None of my parts had dropped off. Nothing had changed: if I wanted to listen to Beethoven, I could put my head between the speakers and turn the dial up to 7. I could hear jets at the airport a block away. I could hear my mom when she was in the same room—if I wanted to. I could even hear my cat purr if I put my good ear right on top of him.</li><br>
+		<li><span class="target" data-accept="number">&nbsp;</span><span class="target" data-accept="important">&nbsp;</span>I wasn’t aware of not hearing until I began to wear a hearing aid at the age of 30. It shattered my peace: shoes creaking, papers crackling, pencils tapping, phones ringing, refrigerators humming, people cracking knuckles, clearing throats and blowing noses! Cars, bikes, dogs, cats, kids all seemed to appear from nowhere and fly right at me.</li><br>
+		<li><span class="target" data-accept="heart">&nbsp;</span> I was constantly startled, unnerved, agitated—exhausted. I felt as though inquisitorial Nazis in an old World War II film were burning the side of my head with a merciless white spotlight. Under that onslaught, I had to break down and confess: I couldn’t hear. Suddenly, I began to discover many things I couldn’t do. </li><br>
+		
+	</ol>
+</div>
+ <button type="submit" value="submit">Submit</button>
+ <div class="lightbox-bg"></div>
+ <div class="status confirm">
+   <p>All Answers Answered Correctly</p>
+   <p><a href="page4.html">Previous</a> | <a href="page6.html">Next</a></p>
+ </div>
+ <div class="status deny">
+   <p>Answers Remain</p>
+ </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
+
+  
+
+    <script  src="scripts/draggy.js"></script>
+
+
+
+
+</body>
+
+</html>
