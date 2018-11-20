@@ -14,14 +14,14 @@
     correctAnswer: 3
   }, {
     question: "Read this sentence from paragraph 2 of 'Hunger for Books.' At that moment, standing in the children’s room of the library in Ravenna, Ohio, I realized that if there were still people writing such fresh and fragrant books, then maybe one day I could write some as well. Which quotation from “The Low-Tech Appeal of Little Free Libraries” expresses a similar sentiment?",
-    choices: ["When he saw the people of his community gathering around it like a neighborhood water cooler, exchanging conversation as well as books, he knew he wanted to take his simple idea farther.", "But as DooSun You scrolled through the results, an appealingly anti-tech concept popped up.", "'Little Free Libraries create neighborhood heroes,' says Bol.", "When you open the door, serendipity (and your neighbors’ taste) dictates what you’ll find."],
+    choices: ["When he saw the people of his community gathering around it like a neighborhood water cooler, exchanging conversation as well as books, he knew he wanted to take his simple idea farther.", "But as DooSun You scrolled through the results, an appealingly anti-tech concept popped up.", "'Little Free Libraries create neighborhood heroes,' says Bol.", "When you open the door, serendipity (and your neighbors' taste) dictates what you'll find."],
     correctAnswer: 0
   }, {
-    question: "Both the traditional libraries described in “Hunger for Books” and the Little Free Libraries in the other article are described as -",
+    question: "Both the traditional libraries described in 'Hunger for Books' and the Little Free Libraries in the other article are described as -",
     choices: ["havens for people who do not like modern technology", "repositories of knowledge that offer opportunities for discovery", "popular local meeting places where people work together", "places that are inexpensive to establish and operate"],
     correctAnswer: 1
   }, {
-    question: "Which quotation from “The Low-Tech Appeal of Little Free Libraries” best supports the message of “Hunger for Books”?",
+    question: "Which quotation from 'The Low-Tech Appeal of Little Free Libraries' best supports the message of 'Hunger for Books'?",
     choices: ["In some places, Little Free Libraries are filling a role usually served by brick-and-mortar libraries; the organization's Books Around the Block program, for example, aims to bring LFLs to places where kids and adults don’t have easy access to books.", "'I hoped to share that feeling with my neighbors—that’s the reason I wanted a Little Free Library.'", "'We have a natural sense of wanting to be connected, but there are so many things that push us apart,' Bol says. 'I think Little Free Libraries open the door to conversations we want to have with each other.'", "'Reading books is one of the most valuable things in my life. I think a book is equal to treasure,' he says."],
     correctAnswer: 3
   }, {
