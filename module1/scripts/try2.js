@@ -2,8 +2,8 @@
 (function() {
   var questions = [{
     question: "In this sentence, the author is trying to show that Summitt - ",
-    choices: ["frequently sought out opportunities to appear on television ", "was able to pick and choose which teams to play", "was able to pick and choose which teams to play","took on a role in women’s sports that went beyond coaching ","compromised her standards occasionally"],
-    correctAnswer: 0
+    choices: ["frequently sought out opportunities to appear on television ", "was able to pick and choose which teams to play","took on a role in women's sports that went beyond coaching ","compromised her standards occasionally"],
+    correctAnswer: 2
   }];
   
   var questionCounter = 0; //Tracks question number
