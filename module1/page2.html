@@ -18,10 +18,15 @@
 				<div id="content-tools">
 					<a href="page1.html">Previous</a> | <a href="page3.html">Next</a>
 				</div>
-		<p>Audio:  Let's see if you were paying attention. Please select the correct answer below</p>
-		<audio autoplay>
-  <source src="audio/audio2.mp3" type="audio/mpeg">
-</audio>
+		<br>
+		<audio autoplay controls> <source src="audio/mod1pg2.mp3" type="audio/mpeg"></audio>
+		<div class="wrapper">
+  <label for="button">
+    <a class="btn" role="button">Audio</a>
+  </label>
+  <input type="checkbox" id="button">
+  <div class="text">Let's see if you were paying attention. Please select the correct answers below.</div>
+</div>		
 		<div id='quiz'></div>
     		<div class='button' id='next'><a href='#'>Next</a></div>
     		<div class='button' id='prev'><a href='#'>Prev</a></div>
@@ -31,6 +36,8 @@
     		<button class='' id='start'> Start Over</a></button> -->
     	</div>
 
+		
+		</div>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
  		<script type="text/javascript" src='questions.json'></script>
 		<script type='text/javascript' src='scripts/miniquiz.js'></script>
