@@ -145,7 +145,7 @@
   
   // Computes score and returns a paragraph element to be displayed
   function displayScore() {
-    var score = $('<p>',{id: 'question'});
+    var scores = $('<p>',{id: 'question'});
     
     var numCorrect = 0;
     for (var i = 0; i < selections.length; i++) {
@@ -156,7 +156,8 @@
     
     var result = numCorrect*100/questions.length;
 	result = Math.round(result);
-	score.append('You scored ' + result + ' % ');
-	return score;
+	var score = result
+	scores.append('You scored ' + result + ' % ');
+	return scores;
   }
 })();
