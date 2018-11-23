@@ -47,7 +47,7 @@ button {
 }
 
 #container {
-    width:50%;
+    width:90%;
     margin:auto;
     padding: 0 25px 40px 10px;
     background-color: #1E90FF;
@@ -71,30 +71,4 @@ ul {
 #start {
     display:none;
     width: 90px;
-}
-.wrapper input {
-    display:none;
-}
-.btn {
-    border:4px solid;
-    border-radius:5px;
-    width: 40px;
-    padding-left:5px;
-    padding-right: 5px;
-    position: relative;
-    float:left;
-    background-color: #DCDCDC;
-    color: black;
-    margin: 0 2px 0 2px;
-}
-.wrapper .text {
-    display:none;
-    margin-top:1em;
-}
-.wrapper input#button:checked ~ .text {
-  display:block;
-}
-#quiz-link
-{
-	display: none;
 }
