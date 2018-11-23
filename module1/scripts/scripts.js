@@ -83,13 +83,13 @@ function reportScores( score )
 	oScorm.set("cmi.core.score.raw", score);
 	oScorm.set("cmi.core.score.min", 0);
 	oScorm.set("cmi.core.score.max", 100);
-	if score>=43 then 
+	if (score>=43)
 	{
 	oScorm.set("cmi.core.score.lesson_status", "passed");
 	} 
 	else 
 	{
-	oScorm.set("cmi.core.score.lesson_status", "failed}");
+	oScorm.set("cmi.core.score.lesson_status", "failed");
 	}
 	oScorm.save();
 }
