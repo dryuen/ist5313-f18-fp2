@@ -24,7 +24,6 @@ function startCourse()
             // set the "key" by giving it a value.  all values are strings!
             // course_started indicated that this OLM has started
     			sessionStorage.setItem( "course_started", "1" );
-    			sessionStorage.setItem("page1Visited", "unvisited");
     			sessionStorage.setItem("page2Visited", "unvisited");
     			sessionStorage.setItem("page3Visited", "unvisited");
     			sessionStorage.setItem("page4Visited", "unvisited");
@@ -92,7 +91,6 @@ function finishCourse()
 }
 function checkAllVisited()
 	{
-	var t1 = sessionStorage.getItem("page1Visited");
 	var t2 = sessionStorage.getItem("page2Visited");
 	var t3 = sessionStorage.getItem("page3Visited");
 	var t4 = sessionStorage.getItem("page4Visited");
@@ -104,15 +102,11 @@ function checkAllVisited()
 	var t10 = sessionStorage.getItem("page10Visited");
 	var t11 = sessionStorage.getItem("page11Visited");
 	var t12 = sessionStorage.getItem("page12Visited");
-	if (t5 == "visited" && t1 == "visited" && t4 == "visited" && t3 == "visited" && t2 == "visited" && t6 == "visited" && t7 == "visited" && t8 == "visited" && t9 == "visited" && t10 == "visited" && t11 == "visited" && t12 == "visited") 
+	if (t2 == "visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited" && t7 == "visited" && t8 == "visited" && t9 == "visited" && t10 == "visited" && t11 == "visited" && t12 == "visited") 
 	{
 	document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display = "inline";}
 	}
-function visitPage1()
-{
- sessionStorage.setItem( "page1Visited", "visited" );
-  checkAllVisited();
-}
+
 function visitPage2()
 {
  sessionStorage.setItem( "page2Visited", "visited" );
@@ -142,6 +136,11 @@ function visitPage7()
 {
  sessionStorage.setItem( "page7Visited", "visited" );
   checkAllVisited();
+  }
+function visitPage8()
+{
+ sessionStorage.setItem( "page8Visited", "visited" );
+  checkAllVisited();
 }
 function visitPage9()
 {
@@ -164,8 +163,4 @@ function visitPage12()
   checkAllVisited();
 }
 
-function visitPage8()
-{
- sessionStorage.setItem( "page8Visited", "visited" );
-  checkAllVisited();
-}
+
