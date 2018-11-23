@@ -35,7 +35,7 @@ function startCourse()
     			sessionStorage.setItem("page10", "0");
     			sessionStorage.setItem("page11", "0");
     			sessionStorage.setItem("page12", "0");
-    			
+    			sessionStorage.setItem("page13", "0");
 			// set the values you want to persist throughout the website here
         }
 	}
@@ -102,7 +102,9 @@ function checkAllVisited()
 	var t10 = sessionStorage.getItem("page10");
 	var t11 = sessionStorage.getItem("page11");
 	var t12 = sessionStorage.getItem("page12");
-	if (t2 == "1" && t3 == "1" && t4 == "1" && t5 == "1" && t6 == "1" && t7 == "1" && t8 == "1" && t9 == "1" && t10 == "1" && t11 == "1" && t12 == "1") 
+	var t13 = sessionStorage.getItem("page13");
+	
+	if (t2 == "1" && t3 == "1" && t4 == "1" && t5 == "1" && t6 == "1" && t7 == "1" && t8 == "1" && t9 == "1" && t10 == "1" && t11 == "1" && t12 == "1" && t13 == "1") 
 	{
 	document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display = "inline";}
 	}
@@ -158,6 +160,11 @@ function visitPage11()
   checkAllVisited();
 }
 function visitPage12()
+{
+ sessionStorage.setItem( "page12", "1" );
+  checkAllVisited();
+}
+function visitPage13()
 {
  sessionStorage.setItem( "page12", "1" );
   checkAllVisited();
