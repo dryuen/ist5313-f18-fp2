@@ -24,17 +24,17 @@ function startCourse()
             // set the "key" by giving it a value.  all values are strings!
             // course_started indicated that this OLM has started
     			sessionStorage.setItem( "course_started", "1" );
-    			sessionStorage.setItem("page2Visited", "unvisited");
-    			sessionStorage.setItem("page3Visited", "unvisited");
-    			sessionStorage.setItem("page4Visited", "unvisited");
-    			sessionStorage.setItem("page5Visited", "unvisited");
-    			sessionStorage.setItem("page6Visited", "unvisited");
-    			sessionStorage.setItem("page7Visited", "unvisited");
-    			sessionStorage.setItem("page8Visited", "unvisited");
-    			sessionStorage.setItem("page9Visited", "unvisited");
-    			sessionStorage.setItem("page10Visited", "unvisited");
-    			sessionStorage.setItem("page11Visited", "unvisited");
-    			sessionStorage.setItem("page12Visited", "unvisited");
+    			sessionStorage.setItem("page2", "0");
+    			sessionStorage.setItem("page3", "0");
+    			sessionStorage.setItem("page4", "0");
+    			sessionStorage.setItem("page5", "0");
+    			sessionStorage.setItem("page6", "0");
+    			sessionStorage.setItem("page7", "0");
+    			sessionStorage.setItem("page8", "0");
+    			sessionStorage.setItem("page9", "0");
+    			sessionStorage.setItem("page10", "0");
+    			sessionStorage.setItem("page11", "0");
+    			sessionStorage.setItem("page12", "0");
     			
 			// set the values you want to persist throughout the website here
         }
@@ -91,75 +91,75 @@ function finishCourse()
 }
 function checkAllVisited()
 	{
-	var t2 = sessionStorage.getItem("page2Visited");
-	var t3 = sessionStorage.getItem("page3Visited");
-	var t4 = sessionStorage.getItem("page4Visited");
-	var t5 = sessionStorage.getItem("page5Visited");
-	var t6 = sessionStorage.getItem("page6Visited");
-	var t7 = sessionStorage.getItem("page7Visited");
-	var t8 = sessionStorage.getItem("page8Visited");
-	var t9 = sessionStorage.getItem("page9Visited");
-	var t10 = sessionStorage.getItem("page10Visited");
-	var t11 = sessionStorage.getItem("page11Visited");
-	var t12 = sessionStorage.getItem("page12Visited");
-	if (t2 == "visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited" && t7 == "visited" && t8 == "visited" && t9 == "visited" && t10 == "visited" && t11 == "visited" && t12 == "visited") 
+	var t2 = sessionStorage.getItem("page2");
+	var t3 = sessionStorage.getItem("page3");
+	var t4 = sessionStorage.getItem("page4");
+	var t5 = sessionStorage.getItem("page5");
+	var t6 = sessionStorage.getItem("page6");
+	var t7 = sessionStorage.getItem("page7");
+	var t8 = sessionStorage.getItem("page8");
+	var t9 = sessionStorage.getItem("page9");
+	var t10 = sessionStorage.getItem("page10");
+	var t11 = sessionStorage.getItem("page11");
+	var t12 = sessionStorage.getItem("page12");
+	if (t2 == "1" && t3 == "1" && t4 == "1" && t5 == "1" && t6 == "1" && t7 == "1" && t8 == "1" && t9 == "1" && t10 == "1" && t11 == "1" && t12 == "1") 
 	{
 	document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display = "inline";}
 	}
 
 function visitPage2()
 {
- sessionStorage.setItem( "page2Visited", "visited" );
+ sessionStorage.setItem( "page2", "1" );
   checkAllVisited();
 }
 function visitPage3()
 {
- sessionStorage.setItem( "page3Visited", "visited" );
+ sessionStorage.setItem( "page3", "1" );
   checkAllVisited();
 }
 function visitPage4()
 {
- sessionStorage.setItem( "page4Visited", "visited" );
+ sessionStorage.setItem( "page4", "1" );
   checkAllVisited();
 }
 function visitPage5()
 {
- sessionStorage.setItem( "page5Visited", "visited" );
+ sessionStorage.setItem( "page5", "1" );
   checkAllVisited();
 }
 function visitPage6()
 {
- sessionStorage.setItem( "page6Visited", "visited" );
+ sessionStorage.setItem( "page6", "1" );
   checkAllVisited();
 }
 function visitPage7()
 {
- sessionStorage.setItem( "page7Visited", "visited" );
+ sessionStorage.setItem( "page7", "1" );
   checkAllVisited();
   }
 function visitPage8()
 {
- sessionStorage.setItem( "page8Visited", "visited" );
+ sessionStorage.setItem( "page8", "1" );
   checkAllVisited();
 }
 function visitPage9()
 {
- sessionStorage.setItem( "page9Visited", "visited" );
+ sessionStorage.setItem( "page9", "1" );
   checkAllVisited();
 }
 function visitPage10()
 {
- sessionStorage.setItem( "page10Visited", "visited" );
+ sessionStorage.setItem( "page10", "1" );
   checkAllVisited();
 }
 function visitPage11()
 {
- sessionStorage.setItem( "page11Visited", "visited" );
+ sessionStorage.setItem( "page11", "1" );
   checkAllVisited();
 }
 function visitPage12()
 {
- sessionStorage.setItem( "page12Visited", "visited" );
+ sessionStorage.setItem( "page12", "1" );
   checkAllVisited();
 }
 
