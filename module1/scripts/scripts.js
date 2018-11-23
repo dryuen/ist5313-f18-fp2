@@ -166,7 +166,7 @@ function visitPage12()
 }
 function visitPage13()
 {
- sessionStorage.setItem( "page12", "1" );
+ sessionStorage.setItem( "page13", "1" );
   checkAllVisited();
 }
 
