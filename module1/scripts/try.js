@@ -2,7 +2,7 @@
 (function() {
   var questions = [{
     question: "Which sentence best describes the difference in tone between the two quotations?",
-    choices: ["The tone of the first quotation is elevated and lofty, while the tone of the second quotation is modest and casual.", "The tone of the first quotation is strident and shrill, while the tone of the second quotation is soft and understated.", "The tone of the first quotation is cynical and pessimistic, while the tone of the second quotation is bright and idealistic. ", "The tone of the first quotation is disapproving and moralistic, while the tone of the second quotation is open-minded and tolerant"],
+    choices: ["The tone of the first quotation is elevated and lofty, while the tone of the second quotation is modest and casual.", "The tone of the first quotation is strident and shrill, while the tone of the second quotation is soft and understated.", "The tone of the first quotation is cynical and pessimistic, while the tone of the second quotation is bright and idealistic. ", "The tone of the first quotation is disapproving and moralistic, while the tone of the second quotation is open-minded and tolerant."],
     correctAnswer: 0
   }];
   
