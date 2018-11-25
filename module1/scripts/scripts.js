@@ -76,7 +76,7 @@ function initializeSCORM()
 	}
 }
 
-// This function reports the score from the assessment to the LMS
+//This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
 function reportScores( score )
 {	
@@ -86,10 +86,12 @@ function reportScores( score )
 	if (score>=43)
 	{
 	oScorm.set("cmi.core.score.lesson_status", "passed");
+	document.getElementById("content-frame").contentWindow.document.getElementById("test-pass").style.display = "inline";
 	} 
 	else 
 	{
 	oScorm.set("cmi.core.score.lesson_status", "failed");
+	document.getElementById("content-frame").contentWindow.document.getElementById("test-fail").style.display = "inline";
 	}
 	oScorm.save();
 }
