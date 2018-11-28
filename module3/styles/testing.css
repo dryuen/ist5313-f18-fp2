@@ -98,3 +98,11 @@ ul {
 {
 	display: none;
 }
+#test-pass
+{
+	display: none;
+}
+#test-fail
+{
+	display: none;
+}
