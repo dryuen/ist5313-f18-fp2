@@ -72,12 +72,26 @@ function initializeSCORM()
 	}
 }
 
-// This function reports the score from the assessment to the LMS
+//This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
 function reportScores( score )
 {	
+	oScorm.set("cmi.core.score.raw", score);
+	oScorm.set("cmi.core.score.min", 0);
+	oScorm.set("cmi.core.score.max", 100);
+	if (score>=43)
+	{
+	oScorm.set("cmi.core.score.lesson_status", "passed");
+	document.getElementById("content-frame").contentWindow.document.getElementById("test-pass").style.display = "inline";
+	} 
+	else 
+	{
+	oScorm.set("cmi.core.score.lesson_status", "failed");
+	document.getElementById("content-frame").contentWindow.document.getElementById("test-fail").style.display = "inline";
+	}
 	oScorm.save();
 }
+
 
 // This function is called when the window is closed.  It saves and quits the course.
 function finishCourse()
@@ -135,5 +149,11 @@ function visitPage8()
 {
  sessionStorage.setItem( "page8", "1" );
   checkAllVisited();
+}
+//This function adds the student's name to the certificate page
+function visitCertificate()
+{
+	var name = oScorm.get("cmi.core.student_name");
+	document.getElementById("content-frame").contentWindow.document.getElementById("user-name").innerHTML = name;
 }
 
