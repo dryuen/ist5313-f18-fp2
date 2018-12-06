@@ -9,7 +9,7 @@
     choices: ["deceptive", "envious", "resentful", "reflective"],
     correctAnswer: 2
   }, {
-    question: "Read this quotation from paragraph 4. 'I had never seen such stubbornness for so long in my daughter, even at her young age. I was shocked. These red American apples had such scary appeal to the young children.'What does this quotation reveal about the narrator’s conflict?",
+    question: "Read this quotation from paragraph 4. 'I had never seen such stubbornness for so long in my daughter, even at her young age. I was shocked. These red American apples had such scary appeal to the young children.'What does this quotation reveal about the narrator's conflict?",
     choices: ["He is displeased with his daughter's rebellious behavior", "He is stunned by how easily children are enticed by the appearance of the apples.", "He is uncertain about whether to buy his daughter what she wants.", "He is angry that the American apples are being marketed specifically to children."],
     correctAnswer: 1
   }, {
