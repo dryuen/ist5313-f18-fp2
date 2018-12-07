@@ -34,7 +34,7 @@
     correctAnswer: 0
   },{
     question: "Which line demonstrates the author's realization that she may have overestimated her abilities?",
-    choices: ["But of course what really made me feel like catching the next bus for Arkansas was that in all the offices I managed to invade, not one casting man had looked at me with sudden interest and exclaimed, 'That girl has something.'", "Since then I’ve found this inner voice always spoke the truth or made me try to find it for myself", "No one in my entire family had ever had artistic yearnings, so they looked upon my girlish dreams as a rather silly and impractical phase, which I would surely outgrow and then settle down in Arkansas like my more sensible cousins.", "It tells me no dream is impossible because faith in my inner self will guide me to its fulfillment."],
+    choices: ["But of course what really made me feel like catching the next bus for Arkansas was that in all the offices I managed to invade, not one casting man had looked at me with sudden interest and exclaimed, 'That girl has something.'", "Since then I've found this inner voice always spoke the truth or made me try to find it for myself", "No one in my entire family had ever had artistic yearnings, so they looked upon my girlish dreams as a rather silly and impractical phase, which I would surely outgrow and then settle down in Arkansas like my more sensible cousins.", "It tells me no dream is impossible because faith in my inner self will guide me to its fulfillment."],
     correctAnswer: 0
   }, {
     question: "In paragraph 2, the author suggests that - ",
