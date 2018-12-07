@@ -94,3 +94,15 @@ ul {
 .wrapper input#button:checked ~ .text {
   display:block;
 }
+#quiz-link
+{
+	display: none;
+}
+#test-pass
+{
+	display: none;
+}
+#test-fail
+{
+	display: none;
+}
