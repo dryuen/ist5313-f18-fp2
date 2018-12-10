@@ -182,5 +182,9 @@ function visitPage13()
  sessionStorage.setItem( "page13", "1" );
   checkAllVisited();
 }
-
+function visitCertificate()
+{
+	var name = oScorm.get("cmi.core.student_name");
+	document.getElementById("content-frame").contentWindow.document.getElementById("user-name").innerHTML = name;
+}
 
